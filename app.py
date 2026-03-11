@@ -104,7 +104,7 @@ with st.sidebar:
     if not api_key:
         st.warning("Add your API key to continue.")
     else:
-        st.success("API key configured", icon=":white_check_mark:")
+        st.success("API key configured", icon="✅")
 
     st.divider()
     st.caption(
